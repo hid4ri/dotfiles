@@ -1,3 +1,7 @@
 this is a test
 I am adding some new information to this file, hopefully will see this online git!
 The next stage is to learn how to make a bullet journaling system through neovim and sync via github using lazygit!
+
+a new update on this file, because I wanted to see if you can do multiple updates in lazygit!
+
+
