@@ -1,0 +1,36 @@
+theme = dark:tokyonight_night,light:tokyonight_night
+window-theme = auto
+window-decoration = false
+window-vsync = true
+shell-integration = detect
+confirm-close-surface = false
+
+background-blur-radius = 20
+background-opacity = 0.8
+# custom-shader = shaders/bloom060.glsl
+custom-shader = shaders/ghostty-shaders/in-game-crt1.glsl
+
+font-family = Hack
+font-family-bold = Hack Bold
+font-family-italic = Hack Italic
+font-family-bold-italic = Hack Bold Italic
+font-size = 20
+
+
+keybind = shift+enter=new_split:auto
+keybind = ctrl+shift+h=new_split:left
+keybind = ctrl+shift+j=new_split:up
+keybind = ctrl+shift+k=new_split:down
+keybind = ctrl+shift+l=new_split:right
+
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+j=goto_split:top
+keybind = ctrl+k=goto_split:bottom
+keybind = ctrl+l=goto_split:right
+
+keybind = super+ctrl+shift+h=resize_split:left,10
+keybind = super+ctrl+shift+j=resize_split:up,10
+keybind = super+ctrl+shift+k=resize_split:down,10
+keybind = super+ctrl+shift+l=resize_split:right,10
+
+keybind = ctrl+shift+d=close_surface
